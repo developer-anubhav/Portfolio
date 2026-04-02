@@ -40,28 +40,20 @@ const Navbar = () => {
             Projects
             <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
           </a>
-          <a href="#reachout" className="hover:text-white transition-colors relative group">
-            Reach Out
-            <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
-          </a>
           <a href="#build" className="hover:text-white transition-colors relative group">
             Let's Build
+            <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
+          </a>
+          <a href="#reachout" className="hover:text-white transition-colors relative group">
+            Reach Out
             <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
           </a>
         </div>
 
         {/* Right Section: CTA Button */}
         <div className="flex-1 flex justify-end">
-          <a href="#contact" className="group flex items-center gap-2 px-5 py-2 bg-white text-black text-xs font-black rounded-full hover:bg-gray-200 transition-all active:scale-95 shrink-0">
-            Start a Project
-            <svg 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="currentColor" 
-              className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-            >
-              <path d="M7 17L17 7M17 7H7M17 7V17" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
+          <a href="#" className="text-lg font-bold tracking-tighter hover:opacity-80 transition-opacity whitespace-nowrap">
+            <span className="text-gray-500">Welcome Dev.</span>
           </a>
         </div>
 
