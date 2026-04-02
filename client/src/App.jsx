@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
-
+import LetsBuild from './components/LetsBuild';
 import ReachOut from './components/ReachOut';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <LetsBuild />
       <ReachOut />
       
       <footer className="py-12 px-6 border-t border-white/5 text-center text-gray-500 text-sm">
