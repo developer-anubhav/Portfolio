@@ -75,7 +75,7 @@ const LetsBuild = () => {
             Ready to start a project?
           </h3>
           <p className="text-gray-700 font-medium">
-            Currently accepting new inquiries for Q2 2026.
+            Currently accepting new Projects.
           </p>
         </div>
         <a 
