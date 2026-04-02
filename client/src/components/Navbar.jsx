@@ -40,8 +40,8 @@ const Navbar = () => {
             Projects
             <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
           </a>
-          <a href="#contact" className="hover:text-white transition-colors relative group">
-            Contact
+          <a href="#reachout" className="hover:text-white transition-colors relative group">
+            Reach Out
             <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a href="#build" className="hover:text-white transition-colors relative group">

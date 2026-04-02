@@ -8,7 +8,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative min-h-[90vh] w-full flex flex-col justify-center items-center px-6 pt-32 pb-16 text-center overflow-hidden">
+    <section id="home" className="relative min-h-[90vh] w-full flex flex-col justify-center items-center px-6 pt-32 pb-16 text-center overflow-hidden">
       <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
         {/* Subtle radial gradient background */}
         <div className="w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/10 via-transparent to-black" />
