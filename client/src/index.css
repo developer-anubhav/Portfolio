@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white selection:bg-white selection:text-black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
