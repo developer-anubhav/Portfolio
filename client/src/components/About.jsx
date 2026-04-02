@@ -52,10 +52,10 @@ const About = () => {
               <div className="relative h-full flex flex-col">
                 <h4 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
                   <span className="w-8 h-px bg-white/20"></span>
-                  Modern UI
+                  Minimalist UI
                 </h4>
                 <p className="text-gray-400 text-sm leading-relaxed mb-6 group-hover:text-gray-300 transition-colors">
-                  Crafting interfaces that feel intuitive and alive. Every interaction is an opportunity to delight and engage.
+                  Crafting interfaces that feel intuitive and alive. Every interaction is an opportunity to engage.
                 </p>
                 <div className="mt-auto flex items-center justify-between">
                   <div className="flex -space-x-2">
@@ -71,7 +71,7 @@ const About = () => {
             {/* Second Card (Bottom) - Visual Excellence */}
             <div className="group relative p-8 rounded-[2rem] bg-zinc-900 border border-white/5 overflow-hidden flex-1 transition-all duration-500 hover:translate-x-2">
               <div className="relative h-full flex flex-col">
-                <h4 className="text-xl font-bold text-white mb-4">Visual Storytelling</h4>
+                <h4 className="text-xl font-bold text-white mb-4">Visual Experiences</h4>
                 <p className="text-gray-400 text-sm leading-relaxed group-hover:text-gray-300 transition-colors">
                   Bringing brands to life through motion and depth, creating digital experiences that resonate long after the tab is closed.
                 </p>
