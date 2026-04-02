@@ -2,17 +2,17 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="py-32 px-6 container mx-auto">
+    <section id="about" className="py-20 md:py-32 px-6 container mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         
         {/* Left Side: About Section Header */}
-        <div className="lg:col-span-4 sticky top-32">
+        <div className="lg:col-span-4 lg:sticky lg:top-32 mb-8 lg:mb-0">
           <span className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4 block font-medium">Over the years</span>
-          <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight tracking-tighter">
+          <h2 className="text-5xl md:text-7xl font-black mb-6 md:mb-8 leading-tight tracking-tighter text-white">
             ABOUT <br /> 
             <span className="gradient-text">ME</span>
           </h2>
-          <p className="text-gray-400 text-lg leading-relaxed max-w-sm">
+          <p className="text-gray-400 text-lg leading-relaxed max-w-sm md:max-w-xs">
             I specialize in building digital experiences that merge technical precision with artistic flair. Every project is a journey into new possibilities.
           </p>
         </div>

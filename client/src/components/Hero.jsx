@@ -44,24 +44,22 @@ const Hero = () => {
         </div>
 
         {/* Glimpse of work - Tech Stack / Keywords */}
-        <div className="flex flex-wrap justify-center gap-12 text-[11px] font-bold tracking-widest text-gray-600 mb-20 uppercase">
-          <span className="hover:text-white transition-colors cursor-default">Full-Stack Architecture</span>
-          <span className="hover:text-white transition-colors cursor-default">High-End UI/UX</span>
-          <span className="hover:text-white transition-colors cursor-default">Community Tools</span>
-          <span className="hover:text-white transition-colors cursor-default">E-Commerce Logic</span>
+        <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-[10px] md:text-[11px] font-bold tracking-[0.2em] md:tracking-widest text-gray-600 mb-20 uppercase px-4">
+          <span className="hover:text-white transition-colors cursor-default whitespace-nowrap">Full-Stack Architecture</span>
+          <span className="hover:text-white transition-colors cursor-default whitespace-nowrap">High-End UI/UX</span>
+          <span className="hover:text-white transition-colors cursor-default whitespace-nowrap">Community Tools</span>
+          <span className="hover:text-white transition-colors cursor-default whitespace-nowrap">E-Commerce Logic</span>
         </div>
 
-
-
         {/* Stats Section Underneath */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 w-full max-w-4xl mx-auto px-4 md:px-0">
           {stats.map((stat, i) => (
             <div 
               key={i} 
-              className="p-6 rounded-3xl border border-white/5 bg-white/[0.02] backdrop-blur-sm hover:border-white/10 transition-colors text-left"
+              className="p-6 md:p-8 rounded-3xl border border-white/5 bg-white/[0.02] backdrop-blur-sm hover:border-white/10 transition-colors text-left"
             >
               <p className="text-[10px] uppercase tracking-widest text-gray-500 mb-2">{stat.label}</p>
-              <h3 className="text-2xl font-bold text-white tracking-tight">{stat.value}</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-white tracking-tight">{stat.value}</h3>
             </div>
           ))}
         </div>

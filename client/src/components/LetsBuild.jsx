@@ -68,7 +68,7 @@ const LetsBuild = () => {
       </div>
 
       {/* Call to Action Banner */}
-      <div className="mt-20 p-12 bg-white text-black rounded-3xl flex flex-col md:flex-row items-center justify-between gap-8 group overflow-hidden relative">
+      <div className="mt-20 p-8 md:p-12 bg-white text-black rounded-[2.5rem] flex flex-col md:flex-row items-center justify-between gap-8 group overflow-hidden relative">
         <div className="absolute inset-0 bg-gradient-to-r from-gray-200 to-white opacity-50"></div>
         <div className="relative z-10 text-center md:text-left">
           <h3 className="text-3xl md:text-4xl font-black tracking-tight mb-2">
