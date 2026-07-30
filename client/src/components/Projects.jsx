@@ -15,12 +15,10 @@ const Projects = () => {
       live: "https://sellora-vert.vercel.app/"
     },
     {
-      name: "DevHub",
-      description: "Community platform for developers to connect, view Developer Events, and much more. (Under Development)"
-    },
-    {
-      name: "Ascend Cloud",
-      description: "A high-performance cloud storage platform built with MERN stack. (Under Development)",
+      name: "QuantFloww",
+      description: "A high-performance Real-Time Stock Analysis platform.",
+      github: "https://github.com/developer-anubhav/Portfolio",
+      live: "https://quant-floww.vercel.app/"
     },
   ];
 
