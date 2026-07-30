@@ -4,13 +4,13 @@ const Projects = () => {
   const projects = [
     {
       name: "WorkSphere Management System",
-      description: "",
+      description: "An HRMS platform for managing employee records, payroll, and leave management.",
       github: "https://github.com/developer-anubhav/e-hrms",
       live: "https://e-hrms-zeta.vercel.app/"
     },
     {
       name: "Sellora E-Commerce",
-      description: "A high-performance e-commerce platform built with MERN stack, featuring advanced filtering and seamless checkout.",
+      description: "An e-commerce platform built with MERN stack, featuring advanced filtering and seamless checkout.",
       github: "https://github.com/developer-anubhav/Sellora",
       live: "https://sellora-vert.vercel.app/"
     },
